@@ -58,6 +58,16 @@ In no particular order:
 * FFT library: [FFTW](http://fftw.org/) version 3.3.10
 
 ## How to compile
+
+### Cloning
+Clone this repository and its submodules using
+```
+git clone git@github.com:kentril0/WaterSurfaceRendering.git
+cd WaterSurfaceRendering
+git submodule update --init --recursive
+```
+
+### Building
 Tested on Ubuntu 20.04 LTS, in root dir:
 ```
 $ mkdir build && cd build
